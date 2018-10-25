@@ -1,0 +1,105 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage[utf8]{inputenc}
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Ganda Rain} % Your first name
+\familyname{Panjaitan} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Haji Wahid Street number 3}{Bojongsoang, West Java}
+\mobile{+62 82262366193}
+\email{gandarainpanjaitan@gmail.com}
+\extrainfo{https://www.linkedin.com/in/ganda-rain-panjaitan-49aa18162/}
+\photo[60pt][0.4pt]{pictures/warna.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\cventry{2014--2018}{S.Si.Kom}{Computational Science} {Telkom University}{Indonesia}{GPA 3.55 from 4.}
+
+%----------------------------------------------------------------------------------------
+%	Publication SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Publication}
+\cventry{2018}{ICoDIS}{}{Detecting the position of the sealring and the edges on the sensor chip (to appear)}{}{}
+
+%--------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\cventry{2016}{PT. Pos Indonesia Internship}{}{During the internship, I was placed in the IT Support of PT. Pos Indonesia branch of Batam. My obligation are to reinstall employee computers, disassemble, clean the computer and prepare meeting needs}{}{}
+%------------------------------------------------
+\cventry{2016--2017}{Head of Logistik Staff}{}{My responsible is to ensuring all needs during the KBSU Telkom University event. Before i became a logistic staff KBSU, I was active in the KBSU committee, such as the KBSU Camp 2015 Committee and KNSU 2016}{}{}
+%------------------------------------------------
+\cventry{2016--2017}{Member of High Performance Computing Study Group}{}{In the HPC study group school of computing Telkom University, I chose parallel programming. Each participant is required to do research on his field and then present it to members of the group study}{}{}
+%---------------------------------------------------------------------------
+\cventry{2017}{Publication, Equipment and Documentation division staff}{}{I became a staff in Publication, Equipment and Documentation division on Kebaktian Padang 2017. This event this event was held by the PMK organization. My obligation is to prepare all needs in events and meetings}{}{}
+%---------------------------------------------------------------------------
+\cventry{2017--2018}{Research Assistant LIPI}{}{I became a research assistant in Computer Vision Informatics LIPI (Indonesian Institute of Sciences). This research aims to develop an algorithm that is able to detect damage to sensor chips and classify wood types}{}{}
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Skills }
+\cvitem{Programming Skills}{ C/C++, HTML, PHP, CSS, Bootstrap, jQuery, MySQL, OpenCV, \LaTeX.}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+\section{Languages}
+\cvitemwithcomment{English}{Basic}{Technical reading }
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+\section{Interests}
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+\cvlistdoubleitem{Front-end Web Developer}{}
+\cvlistdoubleitem{Back-end Web Developer}{}
+\cvlistdoubleitem{Database Engineer}{}
+\cvlistdoubleitem{Image Processing}{}
+
+
+\end{document}
